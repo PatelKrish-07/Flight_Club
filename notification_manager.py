@@ -28,7 +28,7 @@ class NotificationManager:
                     connection.sendmail(from_addr=os.environ["MY_EMAIL"],to_addrs=email,
                                     msg=f"Subject: Flight Update \n\n "
                                     f"Low Price Alert! Only \u20B9{self.price} to fly from {self.departure_airport} "
-                                        f"with {self.stop} stop(s) to {self.arrival_airport},"
+                                    f"with {self.stop} stop(s) to {self.arrival_airport},"
                                     f" departing on {self.out_date} and returning on {self.in_date}\n\n"
                                     f"Air-lines:{airlines}, Flight Number: {flight_number}\n"
                                     f"For further detail visit Google Flights")
