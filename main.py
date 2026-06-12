@@ -20,7 +20,7 @@ customer_emails=[row["whatIsYourEmail"] for row in users_data]
 
 flight_search=FlightSearch()
 for loc in sheet_data:
-    print(f"Flights for {loc["city"]}...")
+    print(f"Flights for {loc["city"]}...") #you can give any city , i have given BLR(Banglore)
     flight=flight_search.check_flights("BLR",loc["iataCode"],from_day,till_day)
 
 
