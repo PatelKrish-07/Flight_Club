@@ -17,7 +17,7 @@ class FlightSearch:
           "return_date": to_time,
           "type": "1",
           "adults": "1",
-          "currency": "INR",
+          "currency": "INR",#can choose any currency, here it INR(indian)
           "api_key": self.api_key,
         }
         if is_direct:
